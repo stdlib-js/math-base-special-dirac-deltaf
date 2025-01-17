@@ -80,7 +80,7 @@ Note that the [Dirac delta function][dirac-delta-function] is **not** a function
 ## Usage
 
 ```javascript
-import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@deno/mod.js';
+import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.0.0-deno/mod.js';
 ```
 
 #### diracDeltaf( x )
@@ -110,7 +110,7 @@ v = diracDeltaf( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@deno/mod.js';
+import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.0.0-deno/mod.js';
 
 var x = linspace( -1.0, 1.0, 101 );
 
