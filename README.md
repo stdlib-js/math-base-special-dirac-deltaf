@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Evaluate the [Dirac delta function][dirac-delta-function] in single-precision floating-point format.
+> Evaluate the [Dirac delta function][dirac-delta-function] for a single-precision floating-point number.
 
 <section class="intro">
 
@@ -103,7 +103,7 @@ var diracDeltaf = require( '@stdlib/math-base-special-dirac-deltaf' );
 
 #### diracDeltaf( x )
 
-Evaluates the [Dirac delta function][dirac-delta-function] in single-precision floating-point format.
+Evaluates the [Dirac delta function][dirac-delta-function] for a single-precision floating-point number.
 
 ```javascript
 var v = diracDeltaf( 0.0 );
@@ -170,7 +170,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 #### stdlib_base_dirac_deltaf( x )
 
-Evaluates the [Dirac delta function][dirac-delta-function] in single-precision floating-point format.
+Evaluates the [Dirac delta function][dirac-delta-function] for a single-precision floating-point number.
 
 ```c
 float x = stdlib_base_dirac_deltaf( 0.0f );
