@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-27)
+## Unreleased (2025-08-15)
 
 <section class="features">
 
@@ -22,6 +22,9 @@
 
 <details>
 
+-   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`24e19f9`](https://github.com/stdlib-js/stdlib/commit/24e19f9d7fd8a648489afe4ba29940a4bfbeab6f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
