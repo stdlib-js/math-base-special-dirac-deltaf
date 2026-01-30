@@ -80,6 +80,11 @@ Note that the [Dirac delta function][dirac-delta-function] is **not** a function
 ## Usage
 
 ```javascript
+import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-dirac-deltaf/tags). For example,
+
+```javascript
 import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.1.0-esm/index.mjs';
 ```
 
@@ -116,7 +121,7 @@ v = diracDeltaf( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.1.0-esm/index.mjs';
+import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
