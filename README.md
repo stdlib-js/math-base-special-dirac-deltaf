@@ -80,7 +80,7 @@ Note that the [Dirac delta function][dirac-delta-function] is **not** a function
 ## Usage
 
 ```javascript
-import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@esm/index.mjs';
+import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.1.0-esm/index.mjs';
 ```
 
 #### diracDeltaf( x )
@@ -116,7 +116,7 @@ v = diracDeltaf( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@esm/index.mjs';
+import diracDeltaf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
