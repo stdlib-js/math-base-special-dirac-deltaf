@@ -82,6 +82,11 @@ Note that the [Dirac delta function][dirac-delta-function] is **not** a function
 To use in Observable,
 
 ```javascript
+diracDeltaf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-dirac-deltaf/tags). For example,
+
+```javascript
 diracDeltaf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.1.1-umd/browser.js' )
 ```
 
@@ -94,7 +99,7 @@ var diracDeltaf = require( 'path/to/vendor/umd/math-base-special-dirac-deltaf/in
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -138,7 +143,7 @@ v = diracDeltaf( NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-dirac-deltaf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
